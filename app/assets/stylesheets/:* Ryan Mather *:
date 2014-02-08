@@ -1,0 +1,7 @@
+/* Ryan Mather */
+
+.frost-layer-home {
+box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
+background-color: rgba(36,32,33,0.50);
+padding: 1%;
+}
