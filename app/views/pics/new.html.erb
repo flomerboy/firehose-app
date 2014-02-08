@@ -1,13 +1,17 @@
-<div class="steamy-hottub">
-	<h2>
+<div class="steamy-hottub span6 offset3 text-center">
+	<h1 class="Simplon">
 	Fill out a selfie-form!
-		<%= simple_form_for @pic do |f| %>
-			<%= f.input :hour %>
-			<%= f.input :emotion %>
-			<%= f.input :learned %>
+	</h1>
 
-			<%= f.submit 'Save' %>
+	
+		<%= simple_form_for @pic do |f| %>
+			<%= f.input :hour, placeholder: '1,2,3, etc', label: 'what time was it?' %>
+			<%= f.input :emotion, placeholder: 'Stoked, Excited, Confused', label: 'how did you feel?' %>
+			<%= f.input :learned, placeholder: 'github, html, css, ruby on rails', label: 'what did you learn?' %>
+			<br />
+
+			<%= f.submit 'Save', :class => 'btn btn-warning btn-large' %>
 
 		<% end %>
-	</h2>
+	
 </div>
