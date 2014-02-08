@@ -35,6 +35,9 @@ end
 # Twitter bootstrap framework gem 
 gem "twitter-bootstrap-rails"
 
+#simple form for submitting datas
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
