@@ -37,6 +37,9 @@ gem "twitter-bootstrap-rails"
 
 #simple form for submitting datas
 gem 'simple_form'
+                                           
+#for uploading images into our web app
+gem 'carrierwave'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
